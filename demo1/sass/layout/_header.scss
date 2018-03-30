@@ -9,9 +9,11 @@ html{
     font-size:62.5%;
 }
 body{
-    background-color: blue;
+    background-color: lighten($color-blue,25%);
     font-family: sans-serif;
     box-sizing: border-box;
     line-height: 1.7;
     font-size: 1.5rem;
 }
+
+//http://sass-lang.com/documentation/Sass/Script/Functions.html
